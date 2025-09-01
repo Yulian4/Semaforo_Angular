@@ -36,7 +36,7 @@ export class App {
     this.encendido.set(!this.encendido());
 
     if (!this.encendido()) {
-      this.mensajeActual.set('El semáforo se apagó.');
+      this.mensajeActual.set('El semáforo se apago.');
     } else {
       if (this.colorActual() === 'rojo')
         this.mensajeActual.set(this.mensajeRojo());
